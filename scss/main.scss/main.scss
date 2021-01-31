@@ -1,0 +1,10 @@
+.sec-01{
+    background-color: $color-01;
+    padding-top: $size-01;
+     .container{
+         @extend
+            %size-class;
+         display: flex;
+         justify-content: space-around;
+     }
+}

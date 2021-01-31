@@ -1,0 +1,30 @@
+{
+  "name": "coder-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikoloz909/coder-sass.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "N.kvachantirazde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikoloz909/coder-sass/issues"
+  },
+  "homepage": "https://github.com/Nikoloz909/coder-sass#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}
