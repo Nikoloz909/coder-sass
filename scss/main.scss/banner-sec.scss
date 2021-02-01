@@ -101,8 +101,29 @@
             }
         }
     }
-    .btn-wrapper{
-        @extend %size-class;
-        
+    
+}
+.btn-wrapper{
+    @extend %size-class;
+    @include d-flex(flex,center,center);
+    margin-top:100px;
+    .btn-child{
+        @include d-flex(flex,center,center);
+        max-width: 60px;
+        width: 100%;
+        height: 106px;
+        border-radius: 60px;
+        border: 2px solid $color-02;
+        background: transparent;
+        transition: all 0.1s linear 0.2s;
+        cursor: pointer;
+        &:hover{
+            background: $color-01;
+        }
+        .fa-arrow-down{
+            font-size: 20px;
+            color: $color-02;
+            
+        }
     }
 }
