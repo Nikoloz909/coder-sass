@@ -1,0 +1,9 @@
+@mixin d-flex ($display,$justify,$align) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin border-style ($size,$type,$color) {
+    border: $size $type $color;
+}
