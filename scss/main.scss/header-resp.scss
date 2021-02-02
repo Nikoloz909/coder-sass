@@ -1,0 +1,231 @@
+@media (max-width:1300px){
+    .header-section,
+    .banner-section{
+    padding: 0 25px;
+    }
+
+}
+@media(max-width:1250px){
+    .banner-section{
+        .left-block{
+            max-width: 550px;
+            .mr-h3{
+                font-size: 45px;
+            }
+            .prof-p{
+                font-size: 21px;
+            }
+            .left-firschild{
+                max-width: 500px;
+                width: 100%;
+                .left-btn,
+                .left-01btn{
+                    max-width: 230px;
+                    width: 100%;
+                }
+            }  
+        }
+       
+    }
+}
+@media(max-width:1205px){
+    .banner-section{
+        .right-block{
+            max-width: 600px;
+        }
+        .left-block{
+            max-width: 500px;
+            .childe-box-01{
+                max-width: 180px;
+                font-size: 20px;
+                .arr{
+                    font-size: 19px;
+                }
+                .mr-h3{
+                    font-size: 43px;
+                }
+            }
+            .prof-p{
+                font-size: 19px;
+            }
+            .left-firschild{
+                max-width: 480px;
+            }
+        }
+    }
+}
+@media (max-width:1150px){
+    .header-section{
+        .navbar{
+            .nav-ul{
+               .nav-li{
+                   height: 90px;
+                   font-size: 15px;
+               }
+               .btn-header{
+                   font-size: 17px;
+                   margin-left: 20px;
+               }
+            }
+        }
+    }
+}
+@media(max-width:1130px){
+    .header-section{
+        .navbar{
+            .nav-ul{
+                .nav-li{
+                    display: none;
+                }
+                .btn-header{
+                   padding: 0 40px;
+                }
+                .fa-bars{
+                    display: block;
+                    cursor: pointer;
+                    transition: all 0.1s linear 0.2s;
+                    &:hover{
+                        color: $color-01;
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+        
+    }
+    .banner-section{
+        .left-block{
+            max-width: 470px;
+            .childe-box-01{
+                max-width: 160px;
+                font-size: 18px;
+                .arr{
+                    font-size: 18px;
+                }
+                
+            }
+            .mr-h3{
+                font-size: 40px;
+            }
+            .prof-p{
+                font-size: 18px;
+            }
+            .left-firschild{
+                max-width: 420px;
+                .left-btn,
+                .left-01btn{
+                    max-width: 200px;
+                    font-size: 20px;
+                }
+            }
+        }
+        .right-block{
+            max-width: 550px;
+        }
+    }
+}
+@media(max-width:1070px){
+    .banner-section{
+        .left-block{
+            max-width: 450px;
+            .childe-box-01{
+                max-width: 140px;
+                font-size: 16px;
+                .arr{
+                    font-size: 16px;
+                }
+            }
+            .mr-h3{
+                font-size: 37px;
+            }
+            .prof-p{
+                font-size: 17px;
+            }
+            .left-firschild{
+                margin-top: 55px;
+                max-width: 400px;
+                .left-btn,
+                .left-01btn{
+                    max-width: 180px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .right-block{
+            margin-top: 110px;
+            max-width: 525px;
+            
+        }
+    }
+}
+@media(max-width:1025px){
+    .banner-section{
+        .left-block{
+            max-width: 420px;
+            .childe-box-01{
+                max-width: 130px;
+                font-size: 15px;
+                .arr{
+                    font-size: 15px;
+                }
+            }
+            .mr-h3{
+                font-size: 35px;
+            }
+            .prof-p{
+                font-size: 15px;
+            }
+            .left-firschild{
+                margin-top: 55px;
+                max-width: 330px;
+                .left-btn,
+                .left-01btn{
+                    max-width: 160px;
+                    font-size: 16px;
+                }
+            }
+        }
+        .right-block{
+            margin-top: 120px;
+            max-width: 510px;
+            
+        }
+    }
+}
+@media(max-width:980px){
+    .banner-section{
+        .left-block{
+            max-width: 400px;
+            .childe-box-01{
+                max-width: 120px;
+                font-size: 14px;
+                .arr{
+                    font-size: 14px;
+                }
+            }
+            .mr-h3{
+                font-size: 33px;
+            }
+            .prof-p{
+                font-size: 14px;
+            }
+            .left-firschild{
+                margin-top: 50px;
+                max-width: 330px;
+                .left-btn,
+                .left-01btn{
+                    max-width: 155px;
+                    font-size: 15px;
+                }
+            }
+        }
+        .right-block{
+            margin-top: 130px;
+            max-width: 500px;
+            
+        }
+    }
+}
+@media(max-width:940px){
+    
+}

@@ -9,6 +9,7 @@
         }
     }
     .navbar{
+        display: flex;
         .nav-ul{
             @include d-flex(flex,space-between,center);
             .nav-li{
@@ -47,6 +48,11 @@
                     background-color: grey;
                     color: black;
                 }
+            }
+            .fa-bars{
+                font-size: 40px;
+                color: $color-02;
+                display: none;
             }
         }
     }
