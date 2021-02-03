@@ -1,0 +1,152 @@
+.section-01{
+    @extend %size-class;
+    // @include d-flex(flex,space-between,center);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 200px;
+   
+    .left-block{
+        position: relative;
+        max-width: 500px;
+        width: 100%;
+        .left-img{
+            width: 100%;
+            filter: opacity(0.7);
+           
+        }
+        .childe-el{
+            position: absolute;
+            max-width: 220px;
+            width: 100%;
+            left: -12%;
+            bottom:-100px;
+            background-color: #111111;
+            height: 200px;
+            border-radius: 10px;
+            .small-wrapper{
+                max-width: 220px;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                .small-box{
+                    width: 18px;
+                    height: 40px;
+                    background-color: $color-02;
+                }
+            }
+            
+            .p-06{
+                color: $color-02;
+                font-family: 'Poppins-extrabold';
+                font-size: 18px;
+                max-width: 160px;
+                width: 100%;
+                padding: 40px;
+                transition: all 0.1s linear 0.2s ;
+                &:hover{
+                    color: $color-01;
+                }
+            }
+        }
+    }
+    .right-block{
+        max-width:600px;
+        width: 100%;
+        .right-title{
+            max-width: 384px;
+            width: 100%;
+            color: $color-02;
+            font-family: 'Poppins-extrabold';
+            font-size: 35px;
+            transition: all 0.1s linear 0.2s ;
+            &:hover{
+                color: $color-01;
+            }
+        }
+      .right-p{
+        font-family: 'Poppins-regular';
+        color: $color-02;
+        margin-top: 52px;
+        font-size: 18px;
+        line-height: initial;
+      }
+      .line{
+          width:100%;
+          margin-top: 30px;
+          .line-title{
+            font-family: 'Poppins-medium';
+            font-size: 18px;
+            color: $color-02;
+            margin-bottom: 25px;
+          }
+          .line-01{
+              height: 7px;
+              border-radius: 10px;
+              background: linear-gradient(to left, #707070, #FF4900);
+          }
+          .line-title-01{
+            font-family: 'Poppins-medium';
+            font-size: 18px;
+            color: $color-02;
+             margin: 25px 0;
+          }
+          .line-02{
+            height: 7px;
+            border-radius: 10px;
+            background: linear-gradient(to left,  #707070 , #FF7004 );
+          }
+          .line-title-02{
+            font-family: 'Poppins-medium';
+            font-size: 18px;
+            color: $color-02;
+            margin: 25px 0;
+          }
+          .line-03{
+            height: 7px;
+            border-radius: 10px;
+            background: linear-gradient(to left,  #707070 , #FFBF0D );
+          }
+          
+          
+      }
+      .right-btn1{
+        max-width: 220px;
+        width: 100%;
+        height: 70px;
+        background-color: $color-01;
+        font-size: 18px;
+        font-family: 'Poppins-medium';
+        border-radius: 10px;
+        margin-top: 40px;
+        color: $color-02;
+        cursor: pointer;
+        transition: all 0.1s linear 0.2s;
+        &:hover{
+            background-color: gray;
+            color: #111111;
+            
+        }
+        
+    }
+    .right-btn2{
+        max-width: 220px;
+        width: 100%;
+        height: 70px;
+        color: $color-02;
+        font-size: 18px;
+        background: transparent;
+        border: 2px solid $color-02;
+        font-family: 'Poppins-medium';
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 25px;
+        cursor: pointer;
+        transition: all 0.1s linear 0.2s;
+        &:hover{
+            background: linear-gradient(to left, #707070,#FF4900);
+            -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255,255,255,0.4));
+        }
+        }
+    }
+}
