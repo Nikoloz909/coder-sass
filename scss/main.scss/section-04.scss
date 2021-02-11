@@ -1,0 +1,26 @@
+.section-04{
+    @extend %size-class;
+    @include d-flex(flex,center,center);
+    margin-bottom: 500px;
+    .content-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title-h3{
+            font-family: 'Poppins-extrabold';
+            color: #fff;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        .title-p{
+            font-family: 'Poppins-regular';
+            font-weight: lighter;
+            font-size: 18px;
+            text-align: center;
+            max-width: 1082px;
+            width: 100%;
+            color: #fff;
+            line-height: 30px;
+        }
+    }
+}
