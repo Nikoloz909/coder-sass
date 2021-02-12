@@ -97,6 +97,59 @@
         }
     }
 }
+// bg section
+.bg-section{
+    @include d-flex(flex,center,center);
+    background-image: url('../img/shutterstock_672470545.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+    filter: brightness(60%);
+    .bg-div{
+        @extend %size-class;
+        @include d-flex(flex,center,center);
+        margin: 200px 0;
+        .div-title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title-p{
+                font-family: 'Poppins-regular';
+                font-size: 18px;
+                color: #fff;
+                margin-bottom: 25px;
+               
+            }
+            .h4-title{
+                font-family: 'Poppins-extrabold';
+                font-size: 22px;
+                color: #fff;
+            }
+            .bg-btn{
+                max-width: 240px;
+                width: 100%;
+                height: 80px;
+                background-color: $color-01;
+                border-radius: 5px;
+                color: #fff;
+                font-family: 'Poppins-regular';
+                font-size: 18px;
+                margin-top: 92px;
+                cursor: pointer;
+                transition: all 0.1s linear 0.2s;
+                &:hover{
+                    background-color: grey;
+                    color: #111111;
+                }
+            }
+        }
+
+    }
+}
+
+
+// bg section end 
 // section-05
 .section-05{
     @extend %size-class;
