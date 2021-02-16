@@ -1,6 +1,5 @@
 .section-01{
     @extend %size-class;
-    // @include d-flex(flex,space-between,center);
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
